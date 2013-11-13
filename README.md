@@ -3,9 +3,6 @@ Autowoot
 
 A autowoot extension for plug.dj
 
-
-Copyright © 2012-2013 by DJ NEON.
-
 ### WHATS NEW? ###
 - Text layers changed!
 - Autowoot AFK,Gaming,WRK Msg added
