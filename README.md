@@ -12,6 +12,7 @@ Copyright © 2012-2013 by DJ NEON.
 - Woot list
 - Meh list
 - Moderators tools added!
+- Name Color
 
 
 --------------
