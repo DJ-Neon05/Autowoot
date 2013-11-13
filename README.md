@@ -22,5 +22,5 @@ provided that the following points are followed.
 
 Just drag this code to your bookmarks bar and rename it to whatever you like.
 ```
-javascript:(function(){$.getScript('');}());
+javascript:(function(){$.getScript('https://raw.github.com/DJ-Neon05/Autowoot/master/Plugwoot.Js');}());
 ```
