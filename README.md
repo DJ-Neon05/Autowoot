@@ -10,6 +10,7 @@ A autowoot extension for plug.dj
 - Meh list
 - Moderators tools added!
 - Name Color (For woot and meh list) added!
+- Announcement who grab song in blue text!
 
 
 --------------
