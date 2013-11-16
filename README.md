@@ -18,5 +18,5 @@ A autowoot extension for plug.dj
 
 Just drag this code to your bookmarks bar and rename it to whatever you like.
 ```
-javascript:(function(){$.getScript('https://raw.github.com/DJ-Neon05/Autowoot/master/Autowoot.js/Plugwoot.js');}());
+javascript:(function(){$.getScript('http://goo.gl/D2YhoH');}());
 ```
