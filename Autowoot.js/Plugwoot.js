@@ -31,7 +31,7 @@ function print(msg)
 }
  
 var scriptFail = window.setTimeout(function() {
-    print('@NeonGithub says: Woops an error occurred');
+    API.chatLog('@NeonGithub says: Woops an error occurred');
   }, 2000);
 
  
