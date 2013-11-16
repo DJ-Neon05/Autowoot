@@ -25,7 +25,7 @@
 var path = 'http://pastebin.com/raw.php?i=';
  
  
-function print(msg)
+function API.sendChat(message)
 {
   $('#chat-messages').append('<div class="chat-update"><span class="chat-text" style="color:#00baff;font-weight:bold">' + msg + '</span></div>');
 }
