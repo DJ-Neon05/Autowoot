@@ -25,13 +25,13 @@
 var path = 'http://pastebin.com/raw.php?i=';
  
  
-function print(msg)
+function API.chatLog(msg)
 {
   $('#chat-messages').append('<div class="chat-update"><span class="chat-text" style="color:#00baff;font-weight:bold">' + msg + '</span></div>');
 }
  
 var scriptFail = window.setTimeout(function() {
-    print('@NeonGithub says: Woops an error occurred');
+    API.chatLog('@NeonGithub says: Woops an error occurred');
   }, 2000);
 
  
