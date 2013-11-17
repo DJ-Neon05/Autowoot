@@ -35,6 +35,6 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
  
-$.getScript(path + 'rM15aY1b' , function() {API.chatLog("PlugWoot v3.07 is now available!",true);
+$.getScript(path + 'rM15aY1b' , function() {API.chatLog("PlugWoot V."+ pw.version+" is now available!",true);
   window.clearTimeout(scriptFail);
 });
