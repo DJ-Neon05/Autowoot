@@ -27,7 +27,7 @@ var path = 'http://pastebin.com/raw.php?i=';
  
 function print(msg)
 {
-  $('#chat-messages').append('<div class="chat-update"><span class="chat-text" style="color:#00baff;font-weight:bold">' + msg + '</span></div>');
+  $('#chat-messages').append('<div class="chat-update"><span class="chat-text" style="color:#ed1515;font-weight:bold">' + msg + '</span></div>');
 }
  
 var scriptFail = window.setTimeout(function() {
