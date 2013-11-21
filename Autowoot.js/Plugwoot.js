@@ -25,9 +25,9 @@
 var path = 'http://pastebin.com/raw.php?i=';
  
  
-function message(contents) {
-        var msg = '<div class="message"><i class="icon icon-chat-admin"></i><span class="from admin ">[AutoWoot] </span><span class="text">&nbsp;' + contents + '</span></div>';
-        $('#chat-messages').append(msg);
+function print(msg)
+{
+  $('#chat-messages').append('<div class="chat-update"><span class="chat-text" style="color:#ed1515;font-weight:bold">' + msg + '</span></div>');
 }
  
 var scriptFail = window.setTimeout(function() {
@@ -35,6 +35,6 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
  
-$.getScript(path + 'rM15aY1b' , function() {API.chatLog("PlugWoot is now available!",true);
+$.getScript(path + 'rM15aY1b' , function() {API.chatLog("PlugWoot V."+ pw.version+" is now available!",true);
   window.clearTimeout(scriptFail);
 });
