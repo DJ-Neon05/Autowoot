@@ -26,7 +26,7 @@ var path = 'http://pastebin.com/raw.php?i=';
  
  
 function message(contents) {
-        var msg = '<div class="message"><i class="icon icon-chat-admin"></i><span class="from admin ">๖ۣۜĐل - ɴᴇᴏɴ - TL] </span><span class="text">&nbsp;' + contents + '</span></div>';
+        var msg = '<div class="message"><i class="icon icon-chat-admin"></i><span class="from admin ">๖ۣۜĐل - ɴᴇᴏɴ - TFL </span><span class="text">&nbsp;' + contents + '</span></div>';
         $('#chat-messages').append(msg);
 }
  
