@@ -31,7 +31,7 @@ function message(contents) {
 }
  
 var scriptFail = window.setTimeout(function() {
-    contents('@NeonGithub says: Woops an error occurred');
+    message('@NeonGithub says: Woops an error occurred');
   }, 2000);
 
  
