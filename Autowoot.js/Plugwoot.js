@@ -25,9 +25,9 @@
 var path = 'http://pastebin.com/raw.php?i=';
  
  
-function print(msg)
-{
-  $('#chat-messages').append('<div class="chat-update"><span class="chat-text" style="color:#ed1515;font-weight:bold">' + msg + '</span></div>');
+function message(contents) {
+        var msg = '<div class="message"><i class="icon icon-chat-admin"></i><span class="from admin ">[AutoWoot] </span><span class="text">&nbsp;' + contents + '</span></div>';
+        $('#chat-messages').append(msg);
 }
  
 var scriptFail = window.setTimeout(function() {
