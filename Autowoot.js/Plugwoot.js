@@ -31,7 +31,7 @@ function message(contents) {
 }
  
 var scriptFail = window.setTimeout(function() {
-    message('Woops an error occurred!');
+    message('Oops! An Error Occurred');
   }, 2000);
 
  
