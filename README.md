@@ -15,7 +15,7 @@ A autowoot extension for plug.dj
 - Website link
 - Hide videos
 - AutoJoin
-- Skip
+- Skip current user when skip button is clicked!
 
 --------------
 ### Installation ###
