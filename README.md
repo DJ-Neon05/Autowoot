@@ -11,7 +11,11 @@ A autowoot extension for plug.dj
 - Moderators tools added!
 - Name Color (For woot and meh list) added!
 - Announcement who grab song in blue text!
-
+- Plugwoot admins
+- Website link
+- Hide videos
+- AutoJoin
+- Skip
 
 --------------
 ### Installation ###
