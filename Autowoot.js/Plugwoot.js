@@ -48,6 +48,6 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
  
-$.getScript(path + 'rM15aY1b' , function() {message("PlugWoot V."+ pw.version+" is now available!");
+$.getScript(path + 'rM15aY1b' , function() {message("v"+ pw.version+" is now available!");
   window.clearTimeout(scriptFail);
 });
