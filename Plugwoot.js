@@ -285,7 +285,7 @@ var styles = [
             '.chat-from-manager {color: #ac76ff; font-weight: "Comic Sans MS", "Lucida Grande"; margin-top: 0px; padding-top: 0px;}',
             '.chat-from-cohost {color: #ac76ff;font-weight: "Comic Sans MS", "Lucida Grande";margin-top: 0px; padding-top: 0px;}',
             '.chat-from-host {color: #16a765;font-weight: "Comic Sans MS", "Lucida Grande";margin-top: 0px; padding-top: 0px;}',
-           '#chat-from-ambassador {color: #89be6c;font-weight: "Comic Sans MS", "Lucida Grande";margin-top: 0px; padding-top: 0px;}',
+            '#chat-from-ambassador {color: #89be6c;font-weight: "Comic Sans MS", "Lucida Grande";margin-top: 0px; padding-top: 0px;}',
 	    '#chat .mention.is-you {border-left: #6F9DFF 3px solid;}',
             '#chat .emote .text {color: #dee97d;}',
             '.dark-label {color: #076CEC;}',
@@ -333,11 +333,11 @@ function displayUI() {
             var colorStream = streaming ? '#3FFF00' : '#ED1C24';
             var colorVideo = hideVideo ? '#3FFF00' : '#ED1C24';
         $('#side-right .sidebar-content').append(
-                        '<a title="Settings" style="color:#FFFFF">Settings:</a>'
+                         '<a title="Settings" style="color:#FFFFF">Settings:</a>'
                 +        '<a id="plug-btn-woot" title="Toggle AutoWoot" style="color:' + colorWoot + '">Auto Woot</a>'
-                +         '<a id="plug-btn-queue" title="Toggle AutoQueue" style="color:' + colorQueue + '">Auto Queue</a>'
-                +         '<a id="plug-btn-stream" title="Toggle Video Stream" style="color:' + colorStream + '">Video Streaming</a>'
-                +         '<a id="plug-btn-hidevideo" title="Toggle Video" style="color:' + colorVideo + '">Hide Video</a>'
+                +        '<a id="plug-btn-queue" title="Toggle AutoQueue" style="color:' + colorQueue + '">Auto Queue</a>'
+                +        '<a id="plug-btn-stream" title="Toggle Video Stream" style="color:' + colorStream + '">Video Streaming</a>'
+                +        '<a id="plug-btn-hidevideo" title="Toggle Video" style="color:' + colorVideo + '">Hide Video</a>'
                 +        '<a title="Messages" style="color:#FFFFF">Messages:</a>'
                 +        '<a id="plug-btn-rules" title="Sends rules" style="color:#FF8C00">Rules</a>'
                 +        '<a id="plug-btn-face" title="Sends fb and forums links" style="color:#FF8C00">Social Links</a>'
@@ -563,7 +563,7 @@ function djAdvanced(obj) {
                 $("#playback .frame-background").css("opacity", "0.0");
         }
         if (autowoot) {
-                $('#button-vote-positive').click();
+                document.getElementById("woot").click();
         }
         if (predictor == false) {
                 predictor = true;
@@ -581,7 +581,7 @@ function populateUserlist() {
             var totalWOOTs = 0;
             var totalUNDECIDEDs = 0;
             var str = '';
-        var myid = API.getUser(userID);
+        var myid = API.getUser().id;
         for (i in a) {
                 str = '<span class="chat-from-clickable ';
                 if (typeof (a[i].permission) !== 'undefined' && a[i].permission == 10) {
@@ -718,5 +718,5 @@ function checkPredict() {
  
 delay();
 $('body').prepend('<style type="text/css" id="plug-css">' + "\n" + styles.join("\n") + "\n" + '</style>');
-$('body').append('</div><div id="side-right" class="sidebar">' + '<div class="sidebar-handle"><span>|||</span></div>' + '<div class="sidebar-content"></div>' + '<div id="hr-div"><div><div id="hr-style"></div></div></div>' + '</div><div id="side-left" class="sidebar">' + '<div class="sidebar-handle" title="show/hide userlist"><span>|||</span></div>' + '<div class="sidebar-content2"></div>' + '<div id="hr2-div2"><div><div id="hr2-style2"></div></div></div>' + '</div>');
+$('body').append('</div><div id="side-right" class="sidebar">' + '<div class="sidebar-handle"><span>||</span></div>' + '<div class="sidebar-content"></div>' + '<div id="hr-div"><div><div id="hr-style"></div></div></div>' + '</div><div id="side-left" class="sidebar">' + '<div class="sidebar-handle" title="show/hide userlist"><span>||</span></div>' + '<div class="sidebar-content2"></div>' + '<div id="hr2-div2"><div><div id="hr2-style2"></div></div></div>' + '</div>');
 $('body').append('<script type="text/javascript" id="plug-js-extra">' + "\n" + scripts.join("\n") + "\n" + '</script>');
