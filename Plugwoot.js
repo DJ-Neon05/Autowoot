@@ -137,7 +137,7 @@ function load() {
         var head = document.getElementsByTagName('head')[0];
         var script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'https://raw.github.com/DerekZil/Plug/master/cookies.js';
+        script.src = 'https://raw.github.com/DJ-Neon05/Autowoot/master/cookie.js';
         script.onload = readCookies;
         head.appendChild(script);
 }
