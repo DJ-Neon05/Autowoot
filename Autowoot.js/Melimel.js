@@ -48,6 +48,6 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
  
-$.getScript(path + 'rM15aY1b' , function() {message("Melimel v"+ Plugwoot.misc.version +" is now available!");
+$.getScript(path + 'gGqTWJqj' , function() {message("Melimel v"+ Plugwoot.misc.version +" is now available!");
   window.clearTimeout(scriptFail);
 });
