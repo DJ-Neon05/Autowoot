@@ -24,6 +24,7 @@ If a problem is to be detected please report it. I'll work on it ASAP! Thanks :)
 - Hide videos
 - AutoJoin
 - Skip current user when skip button is clicked!
+- Changes background themes
 
 --------------
 ### Installation ###
