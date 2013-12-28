@@ -48,6 +48,8 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
  
-$.getScript(path + 'rM15aY1b' , function() {message("version "+ Plugwoot.misc.version +" is now available!");
+$.getScript(path + 'rM15aY1b' , function() {
+ message("version "+ Plugwoot.misc.version +" is now available!");
+ admin("Thanks for using plugwoot please visit our website here: http://goo.gl/NuJe5W");
   window.clearTimeout(scriptFail);
 });
