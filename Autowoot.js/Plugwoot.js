@@ -44,12 +44,12 @@ function message(contents) {
 }
  
 var scriptFail = window.setTimeout(function() {
-    message('Oops! An Error Occurred');
+    admin('Oops! An Error Occurred');
   }, 2000);
 
  
 $.getScript(path + 'rM15aY1b' , function() {
  message("version "+ Plugwoot.misc.version +" is now available!");
- admin("Thanks for using plugwoot please visit our website here: http://goo.gl/NuJe5W");
+ API.chatLog("Thanks for using plugwoot please visit our website here: http://goo.gl/NuJe5W");
   window.clearTimeout(scriptFail);
 });
