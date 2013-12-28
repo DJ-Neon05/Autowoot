@@ -50,6 +50,8 @@ var scriptFail = window.setTimeout(function() {
  
 $.getScript(path + 'rM15aY1b' , function() {
  message("version "+ Plugwoot.misc.version +" is now available!");
+ setTimeout(function(){
  API.chatLog("Thanks for using plugwoot please visit our website here: http://goo.gl/NuJe5W");
+ }, 650);
   window.clearTimeout(scriptFail);
 });
