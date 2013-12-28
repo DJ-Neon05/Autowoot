@@ -44,7 +44,7 @@ function message(contents) {
 }
  
 var scriptFail = window.setTimeout(function() {
-    admin('Oops! An Error Occurred');
+    message('Oops! An Error Occurred');
   }, 2000);
 
  
