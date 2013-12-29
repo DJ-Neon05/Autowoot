@@ -46,7 +46,7 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
  
-$.getScript(path + plugwoot.misc.url , function() {
+$.getScript(path + plugwoot.misc.url + "b", function() {
  message("version "+ Plugwoot.misc.version +" is now available!");
  setTimeout(function(){
  API.chatLog("Thanks for using plugwoot please visit our website here: http://goo.gl/NuJe5W");
