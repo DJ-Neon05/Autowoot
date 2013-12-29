@@ -35,8 +35,6 @@
  */
  
  
-var path = 'http://pastebin.com/raw.php?i=';
- 
  
 function message(contents) {
         var msg = '<div class="mention is-you"><i class="icon icon-chat-admin"></i><span class="from admin ">PlugWoot </span><span class="text">&nbsp;' + contents + '</span></div>';
@@ -48,7 +46,7 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
  
-$.getScript(path + plugwoot , function() {
+$.getScript(path +'rM15aY1b' , function() {
  message("version "+ Plugwoot.misc.version +" is now available!");
  setTimeout(function(){
  API.chatLog("Thanks for using plugwoot please visit our website here: http://goo.gl/NuJe5W");
