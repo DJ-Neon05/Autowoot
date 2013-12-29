@@ -33,4 +33,3 @@ Just drag this code to your bookmarks bar and rename it to whatever you like.
 ```
 javascript:(function(){$.getScript('http://goo.gl/D2YhoH');}());
 ```
-[![PlugWoot]](http://i.imgur.com/r2EA9ji.gif)](javascript:(function(){$.getScript('http://goo.gl/D2YhoH');}());)
