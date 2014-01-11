@@ -42,14 +42,12 @@ function message(contents) {
 }
  
 var scriptFail = window.setTimeout(function() {
-    message('Oops! An Error Occurred');
+    admin('Oops! An Error Occurred');
   }, 2000);
 
  
 $.getScript(path + 'd114cGtJ', function() {
  message("version "+ pwa.version +" is now available!");
- setTimeout(function(){
  API.chatLog("Type /commands to see the commands!", alert);
- }, 1000);
   window.clearTimeout(scriptFail);
 });
