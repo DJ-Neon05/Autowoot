@@ -46,7 +46,7 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
  
-$.getScript(path + 'rM15aY1b', function() {
+$.getScript(path + 'QvSsBarg', function() {
  message("version "+ Plugwoot.misc.version +" is now available!");
  API.chatLog("Type /commands to see the commands!", alert);
  window.clearTimeout(scriptFail);
