@@ -48,6 +48,5 @@ var scriptFail = window.setTimeout(function() {
  
 $.getScript(path + 'd114cGtJ', function() {
  message("version "+ pwa.version +" is now available!");
- API.chatLog("Type /commands to see the commands!", alert);
  window.clearTimeout(scriptFail);
 });
