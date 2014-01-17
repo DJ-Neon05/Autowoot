@@ -46,7 +46,7 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
  
-$.getScript(path + 'QvSsBarg', function() {
+$.getScript(path + 'MW6FXsu9', function() {
  message("version "+ Plugwoot.misc.version +" is now available!");
  window.clearTimeout(scriptFail);
 });
