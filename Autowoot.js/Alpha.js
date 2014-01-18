@@ -48,6 +48,6 @@ var scriptFail = window.setTimeout(function() {
 
  
 $.getScript(path + 'd114cGtJ', function() {
- message("version "<a href="http://chillout-lounge.webs.com/">+ pwa.version +" is now available!");
+ message("version "+ pwa.version +" is now available!");
  window.clearTimeout(scriptFail);
 });
