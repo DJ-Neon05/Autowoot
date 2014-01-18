@@ -38,7 +38,7 @@
 var path = 'http://pastebin.com/raw.php?i=';
 
 function message(contents) {
-        var msg = '<div class="mention is-you"><i class="icon icon-chat-admin"></i><span class="from admin"><a href="http://chillout-lounge.webs.com/">PlugWoot_Alpha</span><span class="text">&nbsp;' + contents + '</span></div>';
+        var msg = '<div class="mention is-you"><i class="icon icon-chat-admin"></i><span class="from admin">PlugWoot_Alpha</span><span class="text">&nbsp;' + contents + '</span></div>';
         $('#chat-messages').append(msg);
 }
  
@@ -48,6 +48,6 @@ var scriptFail = window.setTimeout(function() {
 
  
 $.getScript(path + 'd114cGtJ', function() {
- message("version "+ pwa.version +" is now available!");
+ message("version "<a href="http://chillout-lounge.webs.com/">+ pwa.version +" is now available!");
  window.clearTimeout(scriptFail);
 });
