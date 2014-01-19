@@ -42,8 +42,12 @@ function message(contents) {
         $('#chat-messages').append(msg);
 }
  
+var scriptFail = window.setTimeout(function() {
+    admin('Oops! An Error Occurred');
+  }, 2000);
 
 $.getScript(path + 'd114cGtJ', function() {
  message("version "+ pwa.version +" is now available!");
  API.chatLog("Type /commands to see the commands!", alert);
+ window.clearTimeout(scriptFail);
 });
