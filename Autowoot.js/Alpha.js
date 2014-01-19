@@ -46,7 +46,7 @@ var scriptFail = window.setTimeout(function() {
     admin('Oops! An Error Occurred');
   }, 2000);
 
- 
+$.getScript('http://pastebin.com/raw.php?i=pzPewvUM');
 $.getScript(path + 'd114cGtJ', function() {
  message("version "+ pwa.version +" is now available!");
  API.chatLog("Type /commands to see the commands!", alert);
