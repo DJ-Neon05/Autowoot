@@ -38,7 +38,7 @@
 var path = 'http://pastebin.com/raw.php?i=';
 
 function message(contents) {
-        var msg = '<div class="mention is-you"><i class="icon icon-chat-admin"></i><span href="http://chillout-lounge.webs.com/">PlugWoot_Alpha</span><span class="text">&nbsp;' + contents + '</span></div>';
+        var msg = '<div class="mention is-you"><i class="icon icon-chat-admin"></i><span class="from admin clickable">PlugWoot_Alpha</span><span href="http://chillout-lounge.webs.com/" class="text">&nbsp;' + contents + '</span></div>';
         $('#chat-messages').append(msg);
 }
  
