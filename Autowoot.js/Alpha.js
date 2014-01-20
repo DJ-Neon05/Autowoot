@@ -47,6 +47,6 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
 $.getScript(path + 'd114cGtJ', function() {
- message("version "+ pwa.version +" is now available!");
+ message("version "+ PlugStation.version +" is now available!");
  window.clearTimeout(scriptFail);
 });
