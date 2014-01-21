@@ -42,11 +42,11 @@ function message(contents) {
 }
 
 var scriptFail = window.setTimeout(function() {
-    admin('Oops! An Error Occurred');
+  message('Oops! An Error Occurred');
   }, 2000);
 
  
 $.getScript(path + 'MW6FXsu9', function() {
  message("version "+ Plugwoot.misc.version +" is now available!");
  window.clearTimeout(scriptFail);
-});
+ });
