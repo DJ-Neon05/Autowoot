@@ -46,7 +46,7 @@ var scriptFail = window.setTimeout(function() {
   message('Oops! An Error Occurred');
   }, 2000);
 
-$.getScript(path + 'd114cGtJ', function() {
+$.getScript(path + 'wwm3cyi8', function() {
  message("version "+ PlugStation.version +" is now available!");
  window.clearTimeout(scriptFail);
  });
