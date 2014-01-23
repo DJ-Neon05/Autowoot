@@ -46,7 +46,7 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
  
-$.getScript(path + '6LymH3Jp', function() {
+$.getScript(path + 'WUY1TBKZ', function() {
  message("version "+ Plugwoot.misc.version +" is now available!");
  window.clearTimeout(scriptFail);
  });
