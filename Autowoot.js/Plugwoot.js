@@ -35,20 +35,21 @@
  */
  
 var path = 'http://pastebin.com/raw.php?i=';
- 
-function message(contents) {
-        var msg = '<div class="mention is-you"><i class="icon icon-chat-admin"></i><span class="from admin">Plugwoot™ </span><span class="text">&nbsp;'+ contents +'</span></div>';
-        $('#chat-messages').append(msg);
-}
 
 var scriptFail = window.setTimeout(function() {
   message('Oops! An Error Occurred');
   }, 2000);
-
  
-$.getScript(path + 'NPqKyJwy', function() {
+function message(contents) {
+        var msg = '<div class="mention is-you"><i class="icon icon-chat-admin"></i><span class="from admin">Plugwoot™ </span><span class="text">&nbsp;'+ contents +'</span></div>';
+        $('#chat-messages').append(msg);
+};
+
+function plugwoot(){
+ if(window.location.href === "http://plug.dj/"){
+  $.getScript(path + 'NPqKyJwy', function() {
  message("version "+ PlugStation.version +" is now available!");
  console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
  });
- 
+}};
