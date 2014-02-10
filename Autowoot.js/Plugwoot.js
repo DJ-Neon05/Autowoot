@@ -43,7 +43,7 @@ var scriptFail = window.setTimeout(function() {
 function message(contents) {
         var msg = '<div class="mention is-you"><i class="icon icon-chat-admin"></i><span class="from admin">Plugwoot™ </span><span class="text">&nbsp;'+ contents +'</span></div>';
         $('#chat-messages').append(msg);
-};
+}
 
 function plugwoot(){
  if(window.location.href === "http://plug.dj/"){
@@ -52,4 +52,7 @@ function plugwoot(){
  console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
  });
-}};
+}else{
+alert('This script can only run on Plug.DJs website.');
+}}
+plugwoot();
