@@ -47,12 +47,11 @@ function message(contents) {
 
 function plugwoot(){
  if(window.location.href === "http://plug.dj/"){
-  $.getScript(path + 'NPqKyJwy', function() {
+  $.getScript(path + 'NPqKyJwy');
  message("version "+ PlugStation.version +" is now available!");
  console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
- });
-}else{
+ }else{
 alert('This script can only run on Plug.DJs website.');
 }}
 plugwoot();
