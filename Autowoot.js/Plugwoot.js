@@ -48,6 +48,6 @@ var scriptFail = window.setTimeout(function() {
  
 $.getScript(path + 'NPqKyJwy', function() {
  message("version "+ PlugStation.version +" is now available!");
- console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
+ console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL", true);
  window.clearTimeout(scriptFail);
  });
