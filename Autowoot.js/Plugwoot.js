@@ -42,11 +42,11 @@ function message(contents) {
 }
 
 var scriptFail = window.setTimeout(function() {
-  message('Oops! An Error Occurred');
+  message('Sorry plugwoot is updating! :(');
   }, 2000);
 
  
-$.getScript(path + 'NPqKyJwy', function() {
+$.getScript(path + /*'NPqKyJwy'*/, function() {
  message("version "+ PlugStation.version +" is now available!");
  console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
