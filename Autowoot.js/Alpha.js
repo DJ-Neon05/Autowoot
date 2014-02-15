@@ -43,7 +43,8 @@ function message(contents) {
 }
  
 var scriptFail = window.setTimeout(function() {
-  message('Oops! An Error Occurred');
+  //message('Oops! An Error Occurred');
+  message('Sorry plugwoot alpha is updating! :(');
   }, 2000);
 
 $.getScript(path/* + 'wwm3cyi8'*/, function() {
