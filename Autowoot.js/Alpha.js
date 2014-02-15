@@ -46,7 +46,7 @@ var scriptFail = window.setTimeout(function() {
   message('Oops! An Error Occurred');
   }, 2000);
 
-$.getScript(path + 'wwm3cyi8', function() {
+$.getScript(path/* + 'wwm3cyi8'*/, function() {
  message("Alpha version "+ PlugStation.version +" is now available!");
  console.log("Plugwoot Alpha "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
