@@ -44,7 +44,7 @@ function message(contents) {
 var scriptFail = window.setTimeout(function() {
   message("Oops! Something went wrong!")
   //message('Sorry plugwoot is updating! :(');
-  }, 1000);
+  }, 5250);
 
  
 $.getScript(path+'NPqKyJwy', function() {
