@@ -47,7 +47,7 @@ var scriptFail = window.setTimeout(function() {
   }, 5250);
 
  
-$.getScript(path+/*'NPqKyJwy'*/, function() {
+$.getScript(path+/*'NPqKyJwy',*/ function() {
  //message("version "+ PlugStation.version +" is now available!");
  //console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
