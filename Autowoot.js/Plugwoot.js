@@ -48,7 +48,7 @@ var scriptFail = window.setTimeout(function() {
 
  
 $.getScript(path + 'NPqKyJwy', function() {
- message("version "+ PlugStation.version +" is now running!");
+ message("version "+ PlugStation.version +" is now activated!");
  console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
  });
