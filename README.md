@@ -6,10 +6,11 @@ PlugWoot! A autowoot script which is used for plug.dj
 
 I don't mind you guys using this script just long as nothing is to be changed on it.
 
-Permission to change anything on this script, You can always contact the author at: http://goo.gl/cMMMc1      
-If a problem is to be detected please report it. I'll work on it ASAP! Thanks :)
+#### Permission to fork this script and customize it. PLEASE NOTIFY [ORIGINAL AUTHOR](aiseiab05@gmail.com) BEFORE FORKING OR EDITING ANYPART OF THIS SCRIPT!!!!
 
-
+`Email`: [@JordanGmail](aiseiab05@gmail.com)
+`Twitter`: [@TawiJordan](https://twitter.com/TawiJordan)
+`WebSite`: [Plug-Lounge.com](http://chillout-lounge.webs.com/)
 
 ### WHATS NEW? ###
 - Text layers changed!
