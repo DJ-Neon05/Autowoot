@@ -6,7 +6,7 @@ PlugWoot! A autowoot script which is used for plug.dj
 
 I don't mind you guys using this script just long as nothing is to be changed on it.
 
-##### Permission to fork this script and customize it. PLEASE NOTIFY [ORIGINAL AUTHOR](aiseiab05@gmail.com) BEFORE FORKING OR EDITING ANYPART OF THIS SCRIPT!!!!
+##### Permission to fork this script and customize it. PLEASE Contact The [ORIGINAL AUTHOR](aiseiab05@gmail.com) Of this script Before Forking or Using this script!! 
 
 `Email`: [@JordanGmail](aiseiab05@gmail.com)
 `Twitter`: [@TawiJordan](https://twitter.com/TawiJordan)
