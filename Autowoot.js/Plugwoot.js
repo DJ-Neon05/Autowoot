@@ -42,13 +42,13 @@ function message(contents) {
 }
 
 var scriptFail = window.setTimeout(function() {
-  message("Oops! Something went wrong!")
-  //message('Sorry plugwoot is updating! :(');
+  //message("Oops! Something went wrong!")
+  message('Sorry plugwoot is updating! :(');
   }, 2500);
 
  
-$.getScript(path + '9X4yAhEa', function() {
- message("version "+ PlugStation.version +" is now activated!");
- console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
+$.getScript(path +/* '9X4yAhEa',*/ function() {
+ //message("version "+ PlugStation.version +" is now activated!");
+ //console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
  });
