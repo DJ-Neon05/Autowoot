@@ -47,8 +47,12 @@ var scriptFail = window.setTimeout(function() {
   //message('Sorry plugwoot alpha is updating! :(');
   }, 2000);
 
-$.getScript(path + 'wwm3cyi8',function() {
+ if(window.location.hostname === "plug.dj"){
+ $.getScript(path + 'wwm3cyi8',function() {
   message("Alpha version "+ PlugStation.version +" is now running!");
   console.log("Plugwoot Alpha "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
  });
+ }else{
+  alert("This script can only be functioned at http://plug.dj/communities/");
+ }
