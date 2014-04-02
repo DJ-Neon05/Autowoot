@@ -47,11 +47,11 @@ var scriptFail = window.setTimeout(function() {
   }, 2000);
 
 if(window.location.hostname === "plug.dj"){
-$.getScript(path + '9X4yAhEa', function() {
- message("version "+ PlugStation.version +" is now activated!");
- console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
+ $.getScript(path + '9X4yAhEa', function() {
+   message("version "+ PlugStation.version +" is now activated!");
+   console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
  });
  }else{
- alert("This script can only be functioned at http://plug.dj/communities/");
+  alert("This script can only be functioned at http://plug.dj/communities/");
  }
