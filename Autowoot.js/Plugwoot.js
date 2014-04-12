@@ -43,8 +43,8 @@ function message(contents) {
 
 var scriptFail = window.setTimeout(function() {
   //message("Oops! Something has gone wrong!")
-  message('Sorry plugwoot is updating! :(');
-  }, 2000);
+  message("Sorry, plugwoot is down for today. We advice you to use our Alpha version. Thanks!", alert);
+  }, 1000);
 
 if(window.location.hostname === "plug.dj"){
  $.getScript(path + /*'9X4yAhEa',*/ function() {
