@@ -33,7 +33,7 @@ I don't mind you guys using this script just long as nothing is to be changed on
 
 Just drag this code to your bookmarks bar and rename it to whatever you like.
 ##### Plugwoot
-```
+```javascript
 javascript:(function(){$.getScript('http://goo.gl/D2YhoH');}());
 ```
 ----
