@@ -39,6 +39,6 @@ javascript:(function(){$.getScript('http://goo.gl/D2YhoH');}());
 ----
 
 ##### Plugwoot Alpha
-```
+```javascript
 javascript:(function(){$.getScript('http://goo.gl/T1zN6P');}());
 ```
