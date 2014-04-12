@@ -43,7 +43,7 @@ function message(contents) {
 
 var scriptFail = window.setTimeout(function() {
   //message("Oops! Something has gone wrong!")
-  $('#chat-messages').append('<div class="mention is-you"><i class="icon icon-chat-admin"></i><span class="from admin">Plugwoot™ </span><span class="text"> Hey guys! <br/> We apologies about plugwoot. Due to 8 minute request, AutoJoin may cause some of the spams problem to plug.dj\'s website, When this occurs users may get banned. We advice you to use our <a href="http://chillout-lounge.webs.com/plugwoot">Plugwoot Alpha</a> version. Thanks for understanding! More info will be released soon.</span></div>');
+  $('#chat-messages').append('<div class="mention is-you"><i class="icon icon-chat-admin"></i><span class="from admin">Plugwoot™ </span><span class="text"> Hey guys! <br/> We apologies about plugwoot. Due to 8 minute request, AutoJoin may cause some of the spams problem to plug.dj\'s website, When this occurs users may get banned. We advice you to use our <a href="http://chillout-lounge.webs.com/plugwoot">Plugwoot Alpha</a> version. Thanks for understanding! More info will be release soon.</span></div>');
   }, 1000);
 
 if(window.location.hostname === "plug.dj"){
