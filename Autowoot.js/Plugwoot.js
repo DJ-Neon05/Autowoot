@@ -34,7 +34,7 @@
  *         WELL SERIOUSLY GET YOU TO FACE THE CONSEQUENCES!
  */
  
-var path = 'http://pastebin.com/raw.php?i=';
+var path = 'https://goo.gl/';
  
 function message(contents) {
         var msg = '<div class="mention is-you"><i class="icon icon-chat-admin"></i><span class="from admin">Plugwoot™ </span><span class="text">&nbsp;'+ contents +'</span></div>';
@@ -47,7 +47,7 @@ var scriptFail = window.setTimeout(function() {
   }, 3700);
 
 if(window.location.hostname === "plug.dj"){
- $.getScript(path + '9X4yAhEa', function() {
+ $.getScript(path + '5tKVrx', function() {
    message("version "+ PlugStation.version +" is now activated!");
    console.log("Plugwoot "+ PlugStation.version +" - Created by ๖ۣۜĐل - ɴᴇᴏɴ - TFL");
  window.clearTimeout(scriptFail);
